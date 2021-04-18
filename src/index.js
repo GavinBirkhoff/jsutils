@@ -1,0 +1,6 @@
+export { default as debounce } from "./debounce.js"
+export { default as deepClone } from "./deepClone.js"
+export { default as getTextPixelWith } from "./getTextPixelWith.js"
+export { default as offsetFrom } from "./offsetFrom.js"
+export { default as setCssProps } from "./setCssProps.js"
+export { default as throttle } from "./throttle.js"

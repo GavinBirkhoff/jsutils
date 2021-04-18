@@ -1,0 +1,35 @@
+{
+  "name": "jsutils",
+  "version": "1.0.0",
+  "description": "💗 JavaScript tool function collection, let developers quickly realize the function.",
+  "main": "dist/jsutils.js",
+  "unpkg": "dist/jsutils.min.js",
+  "module": "src/index.js",
+  "files": [
+    "dist/**/*.js",
+    "src/**/*.js"
+  ],
+  "scripts": {
+    "clean": "microtasks clean",
+    "build": "microtasks rollup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinBirkhoff/jsutils.git"
+  },
+  "keywords": [
+    "javascript",
+    "jsutils",
+    "util",
+    "tool"
+  ],
+  "author": "Gavin Birkhoff <gavinbirkhoff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GavinBirkhoff/jsutils/issues"
+  },
+  "homepage": "https://github.com/GavinBirkhoff/jsutils#readme",
+  "devDependencies": {
+    "microtasks": "^1.11.0"
+  }
+}

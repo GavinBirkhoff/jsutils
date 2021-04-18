@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // prevent Visual Studio Code from phoning home
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  // git integration in Visual Studio Code is too poor and only slows down the tool.
+  // we use SmartGit for now until Visual Studio Code can compete with it.
+  "git.enabled": false,
+
+  "files.associations": {
+    "*.json": "jsonc" // allow json files with comments
+  },
+
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.autoIndent": "advanced",
+  "editor.tabSize": 2,
+  "editor.useTabStops": false,
+  "editor.highlightActiveIndentGuide": true,
+
+  "eslint.enable": true,
+  "eslint.validate": ["javascript"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markiscodecoverage.searchCriteria": "out/coverage/lcov*.info"
+}
