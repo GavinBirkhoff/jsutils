@@ -1,4 +1,4 @@
-export default function (ele) {
+export default function offsetFrom(ele) {
   let top = ele.offsetTop
   let left = ele.offsetLeft
 

@@ -1,10 +1,10 @@
-export default function (obj) {
+export default function deepClone(obj) {
   var objClone = Array.isArray(obj) ? [] : {}
   if (obj && typeof obj === "object") {
-    for (key in obj) {
+    for (let key in obj) {
       if (obj.hasOwnProperty(key)) {
         if (obj[key] && typeof obj[key] === "object") {
-          objClone[key] = deep(obj[key])
+          objClone[key] = deepClone(obj[key])
         } else {
           objClone[key] = obj[key]
         }

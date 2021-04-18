@@ -1,4 +1,4 @@
-export default function (text, font) {
+export default function getTextPixelWith(text, font) {
   let { fontStyle, fontVariant, fontWeight, fontSize, fontFamily } = font
   console.log(fontVariant)
   let ctx = document.createElement("canvas").getContext("2d")
