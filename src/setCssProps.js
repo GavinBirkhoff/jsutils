@@ -1,4 +1,4 @@
-export default function (element, props) {
+export default function setCssProps(element, props) {
   if (element == null && props.size < 1) return
   props.forEach((value, key) => {
     console.log(`${key} ${value}`)

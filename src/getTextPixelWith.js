@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {String} text
+ * @param {Object} font
+ * @returns {Number}
+ */
 export default function getTextPixelWith(text, font) {
   let { fontStyle, fontVariant, fontWeight, fontSize, fontFamily } = font
   console.log(fontVariant)
